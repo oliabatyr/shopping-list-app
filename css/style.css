@@ -27,6 +27,7 @@ h3, h4 {
 /*-- HEADER --*/
 header {
   padding: 1px;
+  height: 324px;
 }
 header .reallyInput {
   padding: 4px;
@@ -72,4 +73,18 @@ li.linethrough {
 .enough-moneyBtn, .cant-live-button {
   font-family: 'Walter Turncoat', cursive;
   background-color: #A28EFF;
+}
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 1em;
+  }
+  body {
+    padding:0 5em;
+    background-size: cover;
+  }
+  h2 {
+    font-size: 2.2em;
+  }
+
+  @media all and not print {}
 }
