@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
 var enoughmoneyBtn = $('.enough-moneyBtn');
 var cantlivebutton = $('.cant-live-button');
 enoughmoneyBtn.click(function() {
