@@ -1,28 +1,32 @@
 * {
   margin: 0;
 }
-* {
-  font-family: sans-serif;
-}
 body {
   background-image: url('../images/sweet.jpeg');
   background-size: cover;
 }
 h1 {
   text-align: center;
-  padding-top: 18px;
+  padding-top: 0px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3.4em;
+    color: #4A197F;
 }
 h2 {
   text-align: center;
   padding: 18px;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.7em;
+  font-weight: bold;
 }
-h3 {
+h3, h4 {
   text-align: center;
+  font-family: 'Rancho', cursive;
+  font-size: 2.4em;
 }
 /*-- HEADER --*/
 header {
-  background-color: #3498db;
-  padding: 50px;
+  padding: 1px;
 }
 header .reallyInput {
   padding: 4px;
@@ -54,4 +58,18 @@ ul {
 }
 ul .important-list {
   float: right;
+}
+li {
+  list-style: none;
+}
+li.linethrough {
+	text-decoration: line-through;
+}
+
+.checked, .trash {
+  vertical-align: middle;
+}
+.enough-moneyBtn, .cant-live-button {
+  font-family: 'Walter Turncoat', cursive;
+  background-color: #A28EFF;
 }
