@@ -12,7 +12,7 @@ enoughmoneyBtn.click(function() {
   }
 });
 cantlivebutton.click(function(){
-  var input=$('reallyInput').val();
+  var input = $('reallyInput').val();
   if (input !==""){
     var item = '<li class="item"> <img class="checked" src="images/check.png"/>'+input+'<img class="trash" src="images/trash.png"/></li>';
     $('.important-list').append(item);
