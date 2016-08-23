@@ -6,7 +6,7 @@ enoughmoneyBtn.click(function() {
       /* This is what is called a conditional statement, if / if else ...
       Here it is checking if the input is empty, if it is NOT empty, append....*/
   if (input !==""){
-    var item = '<li class="item"> <img class="checked" src="images/check.png"/>'+input+'<img class="trash" src="images/trash.png"/></li>';
+    var item = '<li class="item"> <img class="checked" src="images/check.png"/>'+input+'<img class="trash" src="images/Trash.png"/></li>';
     $('.enough-money-list').append(item);
     $('reallyInput').val('');
   }
@@ -14,7 +14,7 @@ enoughmoneyBtn.click(function() {
 cantlivebutton.click(function(){
   var input = $('.reallyInput').val();
   if (input !==""){
-    var item = '<li class="item"> <img class="checked" src="images/check.png"/>'+input+'<img class="trash" src="images/trash.png"/></li>';
+    var item = '<li class="item"> <img class="checked" src="images/check.png"/>'+input+'<img class="trash" src="images/Trash.png"/></li>';
     $('.important-list').append(item);
     $('reallyInput').val('');
   }
